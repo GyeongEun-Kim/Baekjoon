@@ -1,7 +1,7 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
 
-public class No10871 {
+public class No10871_X보다작은수 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

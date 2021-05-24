@@ -1,7 +1,7 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
 
-public class No10430 {
+public class No10430_나머지 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 import java.io.*;
 import java.util.Arrays;
 import java.util.Collections;

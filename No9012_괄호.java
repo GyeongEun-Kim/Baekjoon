@@ -1,9 +1,9 @@
-package baekjunalgorithm;
+
 
 import java.util.Scanner;
 import java.util.Stack;
 
-public class No9012 {
+public class No9012_괄호 {
 	public static void main(String[] args) {
 		Scanner scanner= new Scanner(System.in);
 		int num=scanner.nextInt();

@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
 public class No2884_알람시계 {
 

@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No1152 {
+public class No1152_단어의개수 {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);

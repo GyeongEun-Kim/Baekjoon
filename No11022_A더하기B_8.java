@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ import java.util.Scanner;
 		}
 	}
 	
-public class No11022 {
+public class No11022_A더하기B_8 {
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
 		int t=scanner.nextInt();

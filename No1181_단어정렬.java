@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 import java.util.*;
 import java.io.*;
 

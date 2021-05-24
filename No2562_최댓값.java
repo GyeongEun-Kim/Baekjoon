@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No2562 {
+public class No2562_최댓값 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

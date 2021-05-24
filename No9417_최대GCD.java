@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 
 import java.io.*;
 public class No9417_최대GCD {

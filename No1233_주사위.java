@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.io.*;
-public class No1233 {
+public class No1233_주사위 {
 	public static int findMax (int arr[]) {
 		int max=0;
 		int index=0;

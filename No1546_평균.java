@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No1546 {
+public class No1546_평균 {
 
 	public static void main(String[] args) {
 		

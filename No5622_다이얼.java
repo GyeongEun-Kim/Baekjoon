@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No5622 {
+public class No5622_다이얼 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

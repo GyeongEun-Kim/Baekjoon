@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -22,7 +22,7 @@ class Find {
 	}
 }
 
-public class No1966 {
+public class No1966_프린터큐 {
 
 	@SuppressWarnings("null")
 	public static void main(String[] args) throws NumberFormatException, IOException {

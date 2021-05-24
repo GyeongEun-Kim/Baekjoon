@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No2675 {
+public class No2675_문자열반복 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

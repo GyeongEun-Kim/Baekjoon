@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.io.*;
-public class No1032 {
+public class No1032_명령프롬프트 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

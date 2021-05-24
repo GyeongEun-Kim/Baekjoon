@@ -1,14 +1,14 @@
-package baekjunalgorithm;
+
 import java.io.*;
-public class No2609 {
-	public static int gcd (int num1, int num2) { //ÃÖ´ë°ø¾à¼ö
+public class No2609_최대공약수와_최소공배수 {
+	public static int gcd (int num1, int num2) {
 		if(num2==0) 
 			return num1;
 		else
 			return gcd(num2,num1%num2);
 	}
 	
-	public static int lcm (int num1, int num2, int g) { //ÃÖ¼Ò°ø¹è¼ö
+	public static int lcm (int num1, int num2, int g) { 
 		if (g!= 0)
 			return g*(num1/g)*(num2/g);
 		return 0;

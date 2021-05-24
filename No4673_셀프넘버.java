@@ -1,6 +1,3 @@
-package baekjunalgorithm;
-
-import java.util.ArrayList;
 
 public class No4673_셀프넘버 {
 	static int addNumber (int n) {

@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No10996 {
+public class No10996_별찍기21 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
 
 public class No1094_막대기 {

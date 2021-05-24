@@ -1,10 +1,10 @@
-package baekjunalgorithm;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class No1874 {
+public class No1874_ìŠ¤íƒìˆ˜ì—´ {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
@@ -15,9 +15,9 @@ public class No1874 {
 		
 		for (int i=0;i<num;i++) {
 			seq[i]=Integer.parseInt(bf.readLine());
-		} //¼ö¿­À» ÀÔ·Â¹ŞÀ½
+		} //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·Â¹ï¿½ï¿½ï¿½
 		
-		int save=0; //seqÀÇ ¸î¹øÂ° ÀÎµ¦½º±îÁö ¼ö¿­Ç¥½Ã°¡ µÇ¾ù´ÂÁö ³ªÅ¸³»´Â º¯¼ö
+		int save=0; //seqï¿½ï¿½ ï¿½ï¿½ï¿½Â° ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¥ï¿½Ã°ï¿½ ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		
 		
 			for (int i=1;i<=num;i++) {

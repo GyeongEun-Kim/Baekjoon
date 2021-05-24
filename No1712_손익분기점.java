@@ -1,7 +1,7 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
 
-public class No1712 {
+public class No1712_손익분기점 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

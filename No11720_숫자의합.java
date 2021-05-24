@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No11720 {
+public class No11720_숫자의합 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

@@ -1,7 +1,7 @@
-package baekjunalgorithm;
+
 import java.io.*;
 
-public class No2839 {
+public class No2839_설탕배달 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No3052 {
+public class No3052_나머지 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

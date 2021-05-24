@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
 class ch {
 	static int change (int num) {
@@ -7,7 +7,7 @@ class ch {
 		return num;
 	}
 }
-public class No2908 {
+public class No2908_상수 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

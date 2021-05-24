@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -53,7 +53,7 @@ class MyQueue {
 	}
 }
 
-public class No10845 {
+public class No10845_큐 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

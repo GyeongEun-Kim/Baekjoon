@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 
 public class No10172_개 {
 

@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
 
 class Test {
@@ -12,7 +12,7 @@ class Test {
 	
 	
 }
-public class No15596 {
+public class No15596_정수N개의합 {
 
 
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No2588 {
+public class No2588_곱셈 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

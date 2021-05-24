@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No2750 {
+public class No2750_수_정렬하기 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

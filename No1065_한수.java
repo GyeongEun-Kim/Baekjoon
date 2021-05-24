@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No1065 {
+public class No1065_한수 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

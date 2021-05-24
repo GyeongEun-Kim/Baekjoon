@@ -22,7 +22,7 @@ import java.util.*;
 	}
  }
  
-public class No10773 {
+public class No10773_제로 {
 
 	public static void main(String[] args) {
 		stack s = new stack();

@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No1157 {
+public class No1157_ë‹¨ì–´ê³µë¶€ {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -9,7 +9,7 @@ public class No1157 {
 		for (int i=0;i<vocab.length();i++) {
 			if ((int)vocab.charAt(i)>=97) { //A=65, a=97
 				arr[(int)vocab.charAt(i)-97]++;
-			}//¼Ò¹®ÀÚ¸é
+			}//ï¿½Ò¹ï¿½ï¿½Ú¸ï¿½
 			else
 				arr[(int)vocab.charAt(i)-65]++;
 		}
@@ -21,7 +21,7 @@ public class No1157 {
 				max=arr[j];
 				maxidx=j;
 			}
-		} //ÃÖ´ë '°ª'
+		} //ï¿½Ö´ï¿½ 'ï¿½ï¿½'
 		for (int k=0;k<26;k++) {
 			if (arr[k]==max)
 				count++;

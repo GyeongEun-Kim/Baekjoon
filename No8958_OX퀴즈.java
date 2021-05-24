@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
 
 class OX {
@@ -8,7 +8,7 @@ class OX {
 }
 
 
-public class No8958 {
+public class No8958_OXÄûÁî {
 
 
 	public static void main(String[] args) {

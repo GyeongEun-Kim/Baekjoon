@@ -2,7 +2,7 @@ package baekjunalgorithm;
 
 import java.util.Stack;
 import java.io.*;
-public class No10799 {
+public class No10799_¼è¸·´ë±â {
 
 	public static void main(String[] args) {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

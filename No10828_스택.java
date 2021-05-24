@@ -42,7 +42,7 @@ class Stack {
 	}
 }
 
-public class No10828 {
+public class No10828_스택 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

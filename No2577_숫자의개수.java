@@ -1,7 +1,7 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
 
-public class No2577 {
+public class No2577_숫자의개수 {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

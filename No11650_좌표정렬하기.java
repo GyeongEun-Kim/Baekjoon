@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -14,16 +14,16 @@ class Point {
 }
 
 
-public class No11650 {
+public class No11650_ì¢Œí‘œì •ë ¬í•˜ê¸° {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int num=scanner.nextInt(); //¸î°³ÀÇ ÁÂÇ¥¸¦ ÀÔ·Â ¹ÞÀ»°ÇÁö
+		int num=scanner.nextInt(); //ï¿½î°³ï¿½ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		
-		List<Point> Points = new ArrayList<>(); //point°´Ã¼¸¦ ÀúÀåÇÒ ¸®½ºÆ®
+		List<Point> Points = new ArrayList<>(); //pointï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®
 		
 		for (int i=0;i<num;i++) {
 			Points.add(new Point(scanner.nextInt(),scanner.nextInt()));
-		} //ÁÂÇ¥¸¦ ÀÔ·Â¹Þ¾Æ point°´Ã¼¸¦ ¸¸µé°í points¿¡ ÀúÀå
+		} //ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½Ô·Â¹Þ¾ï¿½ pointï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ pointsï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		
 		Collections.sort(Points,new Comparator<Point>() {
 			@Override

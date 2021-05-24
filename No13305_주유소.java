@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 import java.io.*;
 
 public class No13305_주유소 {

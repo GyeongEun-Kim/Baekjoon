@@ -1,9 +1,9 @@
-package baekjunalgorithm;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Collections;
 
-public class No1427 {
+public class No1427_소트인사이드{
 
 	public static void main(String[] args) {
 		Scanner s= new Scanner(System.in);

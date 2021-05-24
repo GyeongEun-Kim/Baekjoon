@@ -1,6 +1,6 @@
-package baekjunalgorithm;
+
 import java.util.Scanner;
-public class No1330 {
+public class No1330_두수비교하기 {
 	
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);

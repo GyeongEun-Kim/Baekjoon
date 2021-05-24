@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 import java.io.*;
 
 public class No4344_평균은넘겠지 {
