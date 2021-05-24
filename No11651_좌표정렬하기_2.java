@@ -4,15 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 
-class Point {
-	int x,y;
 
-	public Point (int x, int y) {
-		this.x=x;
-		this.y=y;
-	}
-	
-}
 
 public class No11651_좌표정렬하기_2 {
 
