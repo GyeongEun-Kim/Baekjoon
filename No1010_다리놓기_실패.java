@@ -1,8 +1,8 @@
-package baekjunalgorithm;
+
 import java.io.*;
 
 
-public class No1010 {
+public class No1010_다리놓기_실패 {
 	
 	private static int combination(int m, int n) {
 		if (n==m || n==0)

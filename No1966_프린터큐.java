@@ -12,90 +12,90 @@ class Find {
 		Integer temp=0;
 		Object[] arr=q.toArray();
 		for (int i=0;i<q.size();i++) {
-			
+
 			if (temp<(Integer)arr[i]) {
 				temp=(Integer)arr[i];
-			} 
+			}
 		}
 		return temp;
-		
+
 	}
 }
 
-public class No1966_ÇÁ¸°ÅÍÅ¥ {
+public class No1966_í”„ë¦°í„°í {
 
 	@SuppressWarnings("null")
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		Queue<Integer> myQueue = new LinkedList<>();
-		
+
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-		
+
 		int testcase= Integer.parseInt(bf.readLine());
-		
-		
-		int fileCount; //ÆÄÀÏÀÌ ¸î°³ ÀÖ´ÂÁö
-		int presentLoc; //Ã£°í½ÍÀº ¹®¼­ÀÇ ÇöÀç À§Ä¡
-		
-		
-		
+
+
+		int fileCount; //íŒŒì¼ì´ ëª‡ê°œ ìˆëŠ”ì§€
+		int presentLoc; //ì°¾ê³ ì‹¶ì€ ë¬¸ì„œì˜ í˜„ì¬ ìœ„ì¹˜
+
+
+
 		for (int i=0;i<testcase;i++) {
 			myQueue.clear();
-			int print=0; //¸î¹øÂ°·Î Ãâ·ÂµÇ´ÂÁö
+			int print=0; //ëª‡ë²ˆì§¸ë¡œ ì¶œë ¥ë˜ëŠ”ì§€
 			int biggest=1;
 			String[] input = bf.readLine().split(" ");
 			fileCount=Integer.parseInt(input[0]);
-			presentLoc=Integer.parseInt(input[1]); 
-			
-			
-			
+			presentLoc=Integer.parseInt(input[1]);
+
+
+
 			String imp[]=bf.readLine().split(" ");
 			for (int j=0;j<fileCount;j++) {
 				myQueue.add(Integer.parseInt(imp[j]));
 			}
-			//Å¥¿¡ ¹®¼­µéÀ» ³ÖÀ½(Áß¿äµµ)
-			
-			
+			//íì— ë¬¸ì„œë“¤ì„ ë„£ìŒ(ì¤‘ìš”ë„)
+
+
 			while (true) {
 				biggest=Find.findBiggest(myQueue);
-			//System.out.println(biggest);
-			//	System.out.println(presentLoc);
+				//System.out.println(biggest);
+				//	System.out.println(presentLoc);
 				if (presentLoc==0 && myQueue.peek()!=null) {
 					if( biggest==myQueue.peek()) {
 						print++;
 						break;
-						}
+					}
 					else if(myQueue.peek()<biggest) {
 						myQueue.add(myQueue.peek());
 						myQueue.remove();
 						presentLoc=myQueue.size()-1;
-					 // ¸Ç¾Õ¿¡ ÀÖ´Âµ¥ Áß¿äµµ·Î ¹Ğ¸±¶§
+						// ë§¨ì•ì— ìˆëŠ”ë° ì¤‘ìš”ë„ë¡œ ë°€ë¦´ë•Œ
 					}
 				}
-				
+
 				else if (presentLoc > 0 && myQueue.peek()!=null) {
 					if (myQueue.peek()< biggest) {
-						
+
 						myQueue.add(myQueue.peek());
 						myQueue.remove();
 						presentLoc--;
-					}// ¸Ç¾Õ¿¡ Áß¿äµµ°¡ ¹Ğ¸®´Â ´Ù¸¥°ÍÀÌ ÀÖ°í Ã£´Â°ÍÀº ´Ù¸¥°÷¿¡ ÀÖÀ»¶§
+					}// ë§¨ì•ì— ì¤‘ìš”ë„ê°€ ë°€ë¦¬ëŠ” ë‹¤ë¥¸ê²ƒì´ ìˆê³  ì°¾ëŠ”ê²ƒì€ ë‹¤ë¥¸ê³³ì— ìˆì„ë•Œ
 					else if (biggest==myQueue.peek()){
 						myQueue.remove();
 						print++;
 						presentLoc--;
-					}	//Áß¿äµµ°¡ Á¦ÀÏ³ôÀº°Ô Ãâ·ÂµÉ¶§
+					}	//ì¤‘ìš”ë„ê°€ ì œì¼ë†’ì€ê²Œ ì¶œë ¥ë ë•Œ
 				}
-						
-			
-					
+
+
+
 			}
 			System.out.println(print);
 		}
 
-	
+
 	}
-		
-	
+
+
 }
 
 

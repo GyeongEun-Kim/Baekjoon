@@ -1,30 +1,30 @@
-
 import java.util.Scanner;
 
-public class No10809_¾ËÆÄºªÃ£±â {
-	
+public class No10809_ì•ŒíŒŒë²³ì°¾ê¸° {
+
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
 		String S=scanner.next();
-		int al[]=new int[26];//¼Ò¹®ÀÚ ¾ËÆÄºªÀÇ °¹¼ö
-		int s[]=new int[S.length()]; //½ºÆ®¸µÀ» °³º°·Î ÀúÀåÇÒ ¹è¿­
-		
+		int al[]=new int[26];//ì†Œë¬¸ì ì•ŒíŒŒë²³ì˜ ê°¯ìˆ˜
+		int s[]=new int[S.length()]; //ìŠ¤íŠ¸ë§ì„ ê°œë³„ë¡œ ì €ì¥í•  ë°°ì—´
+
 		for (int i=0;i<al.length;i++)
-			al[i]=-1; //-1·Î ÃÊ±âÈ­
-		
+			al[i]=-1; //-1ë¡œ ì´ˆê¸°í™”
+
 		for (int i=0;i<S.length();i++) {
 			s[i]=S.charAt(i);
 			if (al[(int)s[i]-(int)'a']==-1) {
 				al[(int)s[i]-(int)'a']=i;
 			}
-			
-			} //¹®ÀÚ¿­À» ¹®ÀÚ·Î µû·Î µû·Î ºĞ¸®
-		
+
+		} //ë¬¸ìì—´ì„ ë¬¸ìë¡œ ë”°ë¡œ ë”°ë¡œ ë¶„ë¦¬
+
 		for (int i=0;i<al.length;i++)
 			System.out.print(al[i]+" ");
-		
+
 		// TODO Auto-generated method stub
 
 	}
 
 }
+

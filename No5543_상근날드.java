@@ -1,49 +1,49 @@
 
 import java.util.Scanner;
-public class No5543_»ó±Ù³¯µå {
+public class No5543_ìƒê·¼ë‚ ë“œ {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
-		int »ó´ö=scanner.nextInt();
-		int Áß´ö=scanner.nextInt();
-		int ÇÏ´ö=scanner.nextInt();
-		int Äİ¶ó=scanner.nextInt();
-		int »çÀÌ´Ù=scanner.nextInt();
-		
+		int ìƒë•=scanner.nextInt();
+		int ì¤‘ë•=scanner.nextInt();
+		int í•˜ë•=scanner.nextInt();
+		int ì½œë¼=scanner.nextInt();
+		int ì‚¬ì´ë‹¤=scanner.nextInt();
+
 		int min1=0;
 		int min2=0;
-		
-		if (»ó´ö>=Áß´ö) {
-			if(Áß´ö>=ÇÏ´ö) {
-				min1=ÇÏ´ö;
+
+		if (ìƒë•>=ì¤‘ë•) {
+			if(ì¤‘ë•>=í•˜ë•) {
+				min1=í•˜ë•;
 			}
 			else
-				min1=Áß´ö;
+				min1=ì¤‘ë•;
 		}
-		
-		else if(Áß´ö>=»ó´ö) {
-			if(»ó´ö>=ÇÏ´ö) {
-				min1=ÇÏ´ö;
+
+		else if(ì¤‘ë•>=ìƒë•) {
+			if(ìƒë•>=í•˜ë•) {
+				min1=í•˜ë•;
 			}
 			else
-				min1=»ó´ö;
+				min1=ìƒë•;
 		}
 		else {
-			if(»ó´ö>=Áß´ö) {
-				min1=Áß´ö;
+			if(ìƒë•>=ì¤‘ë•) {
+				min1=ì¤‘ë•;
 			}
 			else
-				min1=»ó´ö;
+				min1=ìƒë•;
 		}
-		
-		if(Äİ¶ó>=»çÀÌ´Ù)
-			min2=»çÀÌ´Ù;
+
+		if(ì½œë¼>=ì‚¬ì´ë‹¤)
+			min2=ì‚¬ì´ë‹¤;
 		else
-			min2=Äİ¶ó;
-		
+			min2=ì½œë¼;
+
 		System.out.println(min1+min2-50);
-		
-		
+
+
 		// TODO Auto-generated method stub
 
 	}

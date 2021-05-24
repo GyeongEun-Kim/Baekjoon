@@ -1,7 +1,7 @@
 
 public class No10718_Welovekriii {
 	public static void main(String[] args) {
-		System.out.println("°­ÇÑÄ£±¸ ´ëÇÑÀ°±º");
-		System.out.print("°­ÇÑÄ£±¸ ´ëÇÑÀ°±º");
+		System.out.println("ê°•í•œì¹œêµ¬ ëŒ€í•œìœ¡êµ°");
+		System.out.print("ê°•í•œì¹œêµ¬ ëŒ€í•œìœ¡êµ°");
 	}
 }

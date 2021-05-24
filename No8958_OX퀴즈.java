@@ -8,20 +8,20 @@ class OX {
 }
 
 
-public class No8958_OXÄûÁî {
+public class No8958_OXí€´ì¦ˆ {
 
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
 		int num=scanner.nextInt();
 		OX arr[]=new OX[num];
-		
+
 		for (int i=0;i<num;i++) {
 			arr[i]=new OX();
 			arr[i].score=scanner.next();
 		}
-		//°¢ Å×½ºÆ®ÄÉÀÌ½ºÀÇ °´Ã¼¸¦ ¸¸µé±â
-		
+		//ê° í…ŒìŠ¤íŠ¸ì¼€ì´ìŠ¤ì˜ ê°ì²´ë¥¼ ë§Œë“¤ê¸°
+
 		for (int j=0;j<num;j++) {
 			for (int i=0;i<arr[j].score.length();i++) {
 				if (arr[j].score.charAt(i)=='O') {
@@ -31,12 +31,12 @@ public class No8958_OXÄûÁî {
 				else
 					arr[j].k=0;
 			}
-		}	//Á¡¼ö °è»ê
-		
+		}	//ì ìˆ˜ ê³„ì‚°
+
 		for (int i=0;i<num;i++) {
-			
-			System.out.println(arr[i].sum);	
-		}//Ãâ·Â
+
+			System.out.println(arr[i].sum);
+		}//ì¶œë ¥
 		// TODO Auto-generated method stub
 
 	}

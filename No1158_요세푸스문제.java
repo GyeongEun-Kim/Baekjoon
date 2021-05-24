@@ -3,20 +3,20 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class No1158_¿ä¼¼Çª½º¹®Á¦ {
+public class No1158_ìš”ì„¸í‘¸ìŠ¤ë¬¸ì œ {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int ppl = sc.nextInt();
 		int offset = sc.nextInt();
-		
-		
+
+
 		Queue<Integer> myqueue = new LinkedList<>();
-		for (int i =1 ;i<= ppl; i++) 
+		for (int i =1 ;i<= ppl; i++)
 			myqueue.add(i);
-		
+
 		System.out.print("<");
-		for (int i=0;i<ppl ; i++) { //ÃÑ ppl¹ø¸¸Å­ ¹Ýº¹
+		for (int i=0;i<ppl ; i++) { //ì´ pplë²ˆë§Œí¼ ë°˜ë³µ
 			for (int j=1; j<=offset;j++) {
 				if (j==offset) {
 					System.out.print(myqueue.peek());
@@ -29,8 +29,8 @@ public class No1158_¿ä¼¼Çª½º¹®Á¦ {
 					myqueue.remove();
 				}
 			}
-		
-		// TODO Auto-generated method stub
+
+			// TODO Auto-generated method stub
 		}
 		System.out.println(">");
 	}

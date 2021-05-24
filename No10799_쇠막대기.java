@@ -1,46 +1,46 @@
-package baekjunalgorithm;
+
 
 import java.util.Stack;
 import java.io.*;
-public class No10799_¼è¸·´ë±â {
+public class No10799_ì‡ ë§‰ëŒ€ê¸° {
 
 	public static void main(String[] args) {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int cnt=0; //Àß·ÁÁø ¼è¸·´ë±âÀÇ ¼ıÀÚ
+		int cnt=0; //ì˜ë ¤ì§„ ì‡ ë§‰ëŒ€ê¸°ì˜ ìˆ«ì
 
 		try {
-				Stack<Integer> mystack = new Stack<>();
-		
-				
-				String input=br.readLine();
-				
-				for (int j=0;j<input.length();j++) {
-						if (input.charAt(j)=='(')
-							mystack.push(j);
-						else  {
-							int idx=mystack.pop();
-							if (j-idx==1) { //ÀÎÁ¢ÇÑ°ıÈ£ . ·¹ÀÌÀú
-							
-								cnt=cnt+mystack.size();
-							}
-							else {
-					
-								cnt++;
-								
-							}
-						}
-					} 
-				System.out.println(cnt);
-				
-			
+			Stack<Integer> mystack = new Stack<>();
+
+
+			String input=br.readLine();
+
+			for (int j=0;j<input.length();j++) {
+				if (input.charAt(j)=='(')
+					mystack.push(j);
+				else  {
+					int idx=mystack.pop();
+					if (j-idx==1) { //ì¸ì ‘í•œê´„í˜¸ . ë ˆì´ì €
+
+						cnt=cnt+mystack.size();
+					}
+					else {
+
+						cnt++;
+
+					}
+				}
+			}
+			System.out.println(cnt);
+
+
 		} catch (NumberFormatException | IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
-		}
-		// TODO Auto-generated method stub
-
 	}
+	// TODO Auto-generated method stub
+
+}
 
 

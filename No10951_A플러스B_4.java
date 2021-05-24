@@ -1,4 +1,4 @@
-package baekjunalgorithm;
+
 import java.io.*;
 public class No10951_A플러스B_4 {
 

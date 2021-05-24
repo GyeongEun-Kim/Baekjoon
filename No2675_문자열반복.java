@@ -1,16 +1,16 @@
 
 import java.util.Scanner;
-public class No2675_¹®ÀÚ¿­¹İº¹ {
+public class No2675_ë¬¸ìì—´ë°˜ë³µ {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
 		int testcase=scanner.nextInt();
-		
-		
+
+
 		for (int i=0;i<testcase;i++) {
 			int mul=scanner.nextInt();
 			String s=scanner.next();
-			String n=""; //ºó ½ºÆ®¸µ ÇÏ³ª »ı¼º
+			String n=""; //ë¹ˆ ìŠ¤íŠ¸ë§ í•˜ë‚˜ ìƒì„±
 			for (int j=0;j<s.length();j++) {
 				for (int k=0;k<mul;k++)
 					n+=s.charAt(j);

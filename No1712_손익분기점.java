@@ -1,22 +1,22 @@
 
 import java.util.Scanner;
 
-public class No1712_¼ÕÀÍºÐ±âÁ¡ {
+public class No1712_ì†ìµë¶„ê¸°ì  {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
-		int fixed=scanner.nextInt(); // °íÁ¤À¸·Î ³ª°¡´Â ºñ¿ë
-		int var=scanner.nextInt(); //³ëÆ®ºÏ ÇÑ´ë »ý¼ºÇÏ´Âµ¥ µå´Â °¡º¯ÀûÀÎ ºñ¿ë
-		
-		int price=scanner.nextInt(); //³ëÆ®ºÏ ÇÑ´ëÀÇ °¡°Ý
-		int breakEvenPoint=0; //¸î´ë¸¦ ÆÈ¾Æ¾ß ¼ÕÀÍºÐ±âÁ¡À» ³Ñ´ÂÁö
+		int fixed=scanner.nextInt(); // ê³ ì •ìœ¼ë¡œ ë‚˜ê°€ëŠ” ë¹„ìš©
+		int var=scanner.nextInt(); //ë…¸íŠ¸ë¶ í•œëŒ€ ìƒì„±í•˜ëŠ”ë° ë“œëŠ” ê°€ë³€ì ì¸ ë¹„ìš©
+
+		int price=scanner.nextInt(); //ë…¸íŠ¸ë¶ í•œëŒ€ì˜ ê°€ê²©
+		int breakEvenPoint=0; //ëª‡ëŒ€ë¥¼ íŒ”ì•„ì•¼ ì†ìµë¶„ê¸°ì ì„ ë„˜ëŠ”ì§€
 
 		if (var>=price)
 			System.out.println("-1");
 		else
 			System.out.println(fixed/(price-var)+1);
 		// TODO Auto-generated method stub
-		
+
 	}
 }
 
